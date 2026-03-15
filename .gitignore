@@ -3,8 +3,12 @@
 venv/
 
 # generated data
-data/raw/
-data/processed/
+data/raw/*
+data/processed/*
+
+# keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Python cache
 __pycache__/
