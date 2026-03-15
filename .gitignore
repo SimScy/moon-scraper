@@ -2,6 +2,10 @@
 .venv/
 venv/
 
+# generated data
+data/raw/
+data/processed/
+
 # Python cache
 __pycache__/
 *.pyc
