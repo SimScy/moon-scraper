@@ -11,7 +11,6 @@ The dataset contains:
 
 The data is collected for a specified time range and stored as a structured dataset for analysis and visualization.
 
----
 
 ## Data Source
 
@@ -25,7 +24,6 @@ Munich, Germany
 Latitude: 48.17  
 Longitude: 11.50
 
----
 
 ## Project Structure
 ```
@@ -45,7 +43,6 @@ moon-scraper/
 ├─ README.md
 └─ requirements.txt
 ```
----
 
 ## Data Pipeline
 
@@ -76,8 +73,6 @@ The final dataset is saved as:
 
     data/processed/moon_dataset.csv
 
----
-
 ## Dataset
 
 ### 1. Columns
@@ -104,7 +99,6 @@ Example rows from the generated dataset:
 
 **Resolution:** 1 minute
 
----
 
 ## Example Visualizations
 
@@ -116,7 +110,6 @@ Examples include:
 - Moon trajectory in the sky
 - Moon phase cycle
 
----
 
 ## Running the Project
 
@@ -142,7 +135,6 @@ The final dataset will be created in:
 
     data/processed/moon_dataset.csv
 
----
 
 ## Example Usage
 
@@ -157,8 +149,6 @@ df = df.set_index("datetime")
 print(df.head())
 ```
 
----
-
 ## Project purpose
 
 This project is a **small data engineering and web scraping example** demonstrating:
@@ -168,10 +158,6 @@ This project is a **small data engineering and web scraping example** demonstrat
 - building a structured time-series dataset
 - simple data visualization
 
----
-
 ## License
 
 This project is for educational and demonstration purposes.
-
----
